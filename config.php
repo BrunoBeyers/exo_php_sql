@@ -5,3 +5,7 @@ return [
     'PORT_DATABASE' => '9203',
     'IP_DATABASE' => '51.91.12.160'
 ];
+
+
+
+phpinfo();

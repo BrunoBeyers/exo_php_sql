@@ -7,7 +7,9 @@ const noDataTitle = document.querySelector('.noDataTitle');
 const noDataTr = document.querySelector('.noDataTr');
 const teest = document.querySelector('.teest');
 noDataTitle.classList.add('hidden');
-
+document.addEventListener("DOMContentLoaded", function () {
+    console.log("DOM chargé !");
+});
 
 // Ajouter d'un écouteur d'événement de clic sur chaque ligne du tableau
 for (let i = 1; i < rowsHackers.length; i++) {
@@ -45,6 +47,8 @@ function filterStolenData(hackerId) {
         
     }
 }
+
+console.log("qwwqsqwsqwsqw");
 
 
 //https://dbdiagram.io/d/67daacaa75d75cc844ac0762

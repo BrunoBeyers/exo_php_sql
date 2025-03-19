@@ -46,3 +46,6 @@ function filterStolenData(hackerId) {
     }
 }
 
+
+//https://dbdiagram.io/d/67daacaa75d75cc844ac0762
+
